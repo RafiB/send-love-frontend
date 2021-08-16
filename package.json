@@ -15,9 +15,31 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@teamsupercell/typings-for-css-modules-loader": "^2.5.1",
+    "autoprefixer": "^10.3.1",
+    "eslint-import-resolver-typescript": "^2.4.0",
     "gatsby": "^3.11.1",
+    "gatsby-plugin-css-modules-typings": "^1.0.1",
     "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-postcss": "^4.11.0",
+    "mini-css-extract-plugin": "^2.2.0",
+    "postcss": "^8.3.6",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.3",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "style-loader": "^3.2.1",
+    "typescript-plugin-css-modules": "^3.4.0"
   }
 }

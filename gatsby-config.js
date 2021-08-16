@@ -1,7 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Send Love",
+    siteUrl: 'https://www.yourdomain.tld', /* TODO: real URL */
+    title: 'Send Love'
   },
-  plugins: ["gatsby-plugin-gatsby-cloud"],
-};
+  plugins: [
+    'gatsby-plugin-gatsby-cloud',
+    'gatsby-plugin-typescript'
+  ]
+}
