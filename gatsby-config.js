@@ -7,11 +7,12 @@ module.exports = {
     'gatsby-plugin-gatsby-cloud',
     'gatsby-plugin-typescript',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         name: `blog`,
         path: `${__dirname}/blog`,
       }
     },
+    'gatsby-plugin-mdx',
   ]
 }
