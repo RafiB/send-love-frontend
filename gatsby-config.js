@@ -5,6 +5,13 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-gatsby-cloud',
-    'gatsby-plugin-typescript'
+    'gatsby-plugin-typescript',
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      }
+    },
   ]
 }
